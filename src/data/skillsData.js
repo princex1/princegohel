@@ -1,0 +1,130 @@
+export const skillCategories = [
+  {
+    id: 'web',
+    title: 'Web Engineering',
+    description: 'Modern, component-driven web applications with high performance and accessibility.',
+    skills: [
+      {
+        name: 'HTML5',
+        level: 'Intermediate',
+        highlight: false,
+        color: 'indigo',
+        tags: ['Semantic', 'FormControl'],
+      },
+      {
+        name: 'CSS3',
+        level: 'Advanced',
+        highlight: false,
+        color: 'indigo',
+        tags: ['Flex', 'Flex', 'Animations'],
+      },
+      {
+        name: 'Bootstrap',
+        level: 'Intermediate',
+        highlight: true,
+        color: 'sky',
+        tags: ['Grid', 'Class'],
+      },
+      {
+        name: 'Tailwind CSS',
+        level: 'Advanced',
+        highlight: true,
+        color: 'cyan',
+        tags: ['Design Systems', 'Responsive', 'Custom Tokens'],
+      },
+    ],
+  },
+  // {
+  //   id: 'mobile',
+  //   title: 'Mobile & Cross-Platform',
+  //   description: 'Cross-platform native experiences with structured state management.',
+  //   skills: [
+  //     {
+  //       name: 'Flutter',
+  //       level: 'Intermediate',
+  //       highlight: true,
+  //       color: 'blue',
+  //       tags: ['Dart', 'Widgets', 'State Mgmt'],
+  //     },
+  //     {
+  //       name: 'Kotlin',
+  //       level: 'Foundational',
+  //       highlight: false,
+  //       color: 'orange',
+  //       tags: ['Android Studio', 'OOP', 'Coroutines'],
+  //     },
+  //     {
+  //       name: 'Cross-Platform UI',
+  //       level: 'Intermediate',
+  //       highlight: false,
+  //       color: 'indigo',
+  //       tags: ['Adaptive Layouts', 'Material 3'],
+  //     },
+  //   ],
+  // },
+  {
+    id: 'systems',
+    title: 'Systems & Infrastructure',
+    description: 'Low-level systems programming, environment tooling, and cloud services.',
+    skills: [
+      {
+        name: 'C Programming',
+        level: 'Proficient',
+        highlight: true,
+        color: 'emerald',
+        tags: ['Pointers', 'Memory Mgmt', 'Algorithms'],
+      },
+      {
+        name: 'Linux',
+        level: 'Proficient',
+        highlight: true,
+        color: 'amber',
+        tags: ['Shell / Bash', 'Permissions', 'Environment'],
+      },
+      {
+        name: 'Firebase',
+        level: 'Intermediate',
+        highlight: false,
+        color: 'orange',
+        tags: ['Firestore', 'Auth', 'Hosting'],
+      },
+      {
+        name: 'Git & GitHub',
+        level: 'Proficient',
+        highlight: false,
+        color: 'rose',
+        tags: ['Version Control', 'Branches', 'Workflows'],
+      },
+    ],
+  },
+];
+
+export const futureGoals = [
+  {
+    id: 'web-adv',
+    title: 'Modern Full-Stack Web Development',
+    timeline: 'Continuous Expansion',
+    badge: 'Ecosystem',
+    description: 'Expanding modern full-stack competencies with server-side rendering, robust backend APIs, database design, and end-to-end type safety.',
+    topics: ['Full-Stack Architectures', 'RESTful API Engineering', 'Authentication & Security', 'CI/CD Pipelines'],
+    progress: 40,
+  },
+  {
+    id: 'dsa',
+    title: 'Data Structures & Algorithms',
+    timeline: 'Ongoing Core Focus',
+    badge: 'Core Priority',
+    description: 'Rigorous problem-solving covering trees, graphs, dynamic programming, and complexity optimization in C & modern languages.',
+    topics: ['Trees & Graphs', 'Dynamic Programming', 'Time & Space Optimization', 'Systematic Problem Solving'],
+    progress: 10,
+  },
+  {
+    id: 'flutter-adv',
+    title: 'Advanced Flutter Architecture',
+    timeline: 'Q3 - Q4 Focus',
+    badge: 'Specialization',
+    description: 'Deepening expertise in complex state management (Bloc/Riverpod), custom rendering engine hooks, animations, and offline-first mobile sync.',
+    topics: ['Bloc / Riverpod', 'Custom Painters', 'Native Platform Channels', 'Offline Persistence'],
+    progress: 10,
+  },
+];
